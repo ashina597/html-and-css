@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Introduction</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="introduction.js"></script>
+    <style>
+        header{
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        footer{
+            background-color: green;
+            color: white;
+            padding: 5px;
+        }
+        nav{
+            background-color: blue;
+            display: flex;
+            gap: 40px;
+            font-weight: bold;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Introduction to HTML</h2>
+        <nav>
+            <a href="./introduction.html">HTML</a>
+            <a href="./css.html">CSS</a>
+            <a href="">JavaScript</a>
+            </nav>
+    </header>
+    <label for="country">choose your country</label>
+    <input list="countries" name="countries" id="country">
+    <datalist id="countries">
+      <option value="Kenya">
+      <option value="Uganda">
+      <option value="Tanzania">
+      <option value="Somali">
+      <option value="rwanda">
+    </datalist>
+
+    <br><label for="file">completion progress:</label>
+     <progress id="file" value="100" max="150"> 100% </progress><br>
+
+</body>
+</html>

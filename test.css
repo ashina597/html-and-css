@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap'); */
+
+/* background styling */
+.container{
+    padding: 10px;
+    margin: 5px;
+    /* border styling */
+    border: 2px solid black;
+    /* background styling */
+    background-color: yellow;
+    background-image: url("https://th.bing.com/th/id/R.99bd2d4ac975b19b74b69edfe84b07b0?rik=YtLmWiEqG719sg&pid=ImgRaw&r=0");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    /* dimension */
+    max-width: 500px;
+    max-height: 200px;
+    overflow: scroll;
+}
+/* styling my list */
+ol{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* font stlying */
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* text styling */
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+    color: black;
+    direction: rtl;
+    /* right to left */
+    word-spacing: 5px;
+    white-space: normal;
+    letter-spacing: 2px;
+}
+
+/* link styling */
+
+a:hover{
+    color: red;
+} 
+a:visited{
+    color: black;
+}
+
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+/* styling a table */
+table{
+    border: 2px solid black;
+    caption-side: bottom;
+    border-spacing: 2px;
+    border-collapse: separate;
+    table-layout: auto;
+    empty-cells: hide;
+}
+
+td{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid black;
+}
+
+/* styling my image */
+img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+    /* outline */
+    outline-width: 2px;
+    outline-color: black;
+    outline-style: dashed;
+}
+
